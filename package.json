@@ -7,7 +7,7 @@
     "build": "next build",
     "postbuild": "next export -o build",
     "start": "next start",
-    "deploy": "git subtree push --prefix build origin build"
+    "deploy": "git subtree push --prefix build origin build --force"
   },
   "dependencies": {
     "next": "10.1.3",
