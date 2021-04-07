@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  deploy to github page:
+  deploy_to_github_page:
 
     runs-on: ubuntu-latest
 
