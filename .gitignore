@@ -33,5 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-# mac 
-.DS_Store
+# ide
+.idea
+
+
