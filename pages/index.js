@@ -1,17 +1,16 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/home.module.scss";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>नमस्ते, I am Santosh Mahto from India</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <div
-          class="badge-base LI-profile-badge"
+          className="badge-base LI-profile-badge"
           data-locale="en_US"
           data-size="medium"
           data-theme="dark"
@@ -20,7 +19,7 @@ export default function Home() {
           data-version="v1"
         >
           <a
-            class="badge-base__link LI-simple-link"
+            className="badge-base__link LI-simple-link"
             href="https://in.linkedin.com/in/insantoshmahto?trk=profile-badge"
           >
             {/* Santosh Mahto */}
