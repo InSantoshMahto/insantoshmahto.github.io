@@ -9,28 +9,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div
-          className="badge-base LI-profile-badge"
-          data-locale="en_US"
-          data-size="medium"
-          data-theme="dark"
-          data-type="HORIZONTAL"
-          data-vanity="insantoshmahto"
-          data-version="v1"
-        >
-          <a
-            className="badge-base__link LI-simple-link"
-            href="https://in.linkedin.com/in/insantoshmahto?trk=profile-badge"
-          >
-            {/* Santosh Mahto */}
-          </a>
-        </div>
-        <script
-          src="https://platform.linkedin.com/badges/js/profile.js"
-          async
-          defer
-          type="text/javascript"
-        ></script>
+        <code>Working on It</code>
       </main>
 
       <footer className={styles.footer}>
